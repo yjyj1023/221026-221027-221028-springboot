@@ -2,7 +2,7 @@ package com.example.hello.controller;
 
 
 import com.example.hello.dao.UserDao;
-import org.apache.catalina.User;
+import com.example.hello.domain.user.User;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;

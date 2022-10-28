@@ -1,11 +1,12 @@
 package com.example.hello.dao;
 
-import org.apache.catalina.User;
+
+import com.example.hello.domain.user.User;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
+import org.springframework.jdbc.core.RowMapper;
 
 import javax.sql.DataSource;
-import javax.swing.tree.RowMapper;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
